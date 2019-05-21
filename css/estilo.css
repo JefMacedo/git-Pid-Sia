@@ -21,14 +21,16 @@ header {
 }
 header img.dodoLogo {
 	height: 50px;
+	width: auto;
 	margin-top: 20px;
 	margin-left: 10px;
 }
 header img.dodoSoftwares {
 	width: 100px;
 	height: 50px;
-	margin-top: 5px;
-	margin-left: 41%;
+	margin-top: 10px;
+	position: absolute;
+	left: 45%;
 }
 header img.busca { 
 	width: 40px;
@@ -68,7 +70,13 @@ nav div a:hover {
 	color: #585959;
 	background: #fff;
 }
-
+	
+	@media(max-width:458px){
+		nav div a{
+			font-size: 3vw;
+			font-weight: bold;
+		}
+	}
 /* -- FIM NAVEGAÇÃO -- */
 
 /*====================================================*/
@@ -281,10 +289,9 @@ nav div a:hover {
 
 /* -- INICIO RODAPÉ -- */
 footer {
-	width: 97.8%;
+	width: 100%;
 	height: 150px;
 	background: #000;
-	padding: 15px;
 }
 h3 {
 	color: #fff;
@@ -311,9 +318,6 @@ h3 {
 	width: 17%;
 	float: left;
 	color: #fff;
-	padding: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
 	line-height: 30px;
 }
 #inf ul {
@@ -322,17 +326,16 @@ h3 {
 #inf li a {
 	text-decoration: none;
 	color: #fff;
+	font-size: 1vw;
 }
 /* -- -- */
 /* -- -- */
 #termos {
 	width: 17%;
-	float: right;
 	color: #fff;
-	padding: 10px;
-	margin-left: 10px;
-	margin-right: 10px;
 	line-height: 30px;
+	position: absolute;
+	left: 80%;
 }
 #termos ul {
 	list-style: none;
@@ -340,13 +343,19 @@ h3 {
 #termos li a {
 	text-decoration: none;
 	color: #fff;
+	font-size: 1vw;
 }
 /* -- -- */
 
 #logofooter {
-	display: inline;
-	float: left;
+	width: 100%;
+	height: auto;
+	position: absolute;
 	text-align: center;
-	margin-left: 6%;
+
+}
+.responsivo{
+	width: 100%;
+	height: auto;
 }
 /* -- FIM RODAPÉ -- */
