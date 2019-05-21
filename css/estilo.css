@@ -15,8 +15,9 @@ body{
 
 header {
 	width: 100%;
-	height: 100px;
+	height: 90px;
 	background: #000;
+	position: sticky;
 }
 header img.dodoLogo {
 	height: 50px;
@@ -24,24 +25,19 @@ header img.dodoLogo {
 	margin-left: 10px;
 }
 header img.dodoSoftwares {
-	width: 103px;
+	width: 100px;
 	height: 50px;
 	margin-top: 5px;
-	margin-left: 40%;
+	margin-left: 41%;
 }
-header img.busca {
-	width: 2%;
-	margin-left: 43%;
-	margin-top: 4%;
+header img.busca { 
+	width: 40px;
+	height: 40px;
+	margin-top: 25px;
 	position: absolute;
 	top: 2px;
+	right: 2%;
 }
-input {
-	/* -- EDITAR -- */
-	margin-left: 30%;
-	/*visibility: hidden;*/
-}
-
 /* -- FIM TOPO  -- */
 
 /*====================================================*/
@@ -63,7 +59,7 @@ nav div a {
 	color: #fff;
 	font-weight: bold;
 	padding: 8px;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 nav div li {
 	display: inline; 
@@ -78,40 +74,42 @@ nav div a:hover {
 /*====================================================*/
 
 /* -- SEÇÃO HOME --*/
-section {
-	width: 100%;
-}
 /* -- -- */
-#img1 img {
+#banner {
 	width: 100%;
+	height: auto;
 	margin-top:-35px; /* Para sobrepor a nav*/
+	position: relative;
+	z-index: -1;
+}
+.imgfull{
+	width: 100%;
 }
 #linha1 {
 	position:absolute;
-	left: 65%;
+	left: 70%;
 	text-align: left;
-	bottom: 55%;
-	margin-right: 10px;
-	font-size: 1.5em;
+	bottom: 70%;
+	margin-right: 100px;
+	font-size: 1.8vw;
+
 }
 #linha2{
 	position:absolute;
-	left: 65%;
+	left: 70%;
 	text-align: left;
-	bottom: 35%;
-	margin-right: 10px;
-	font-size: 1.35em;
-	width: 25%;
+	bottom: 40%;
+	margin-right: 50px;
+	font-size: 1.8vw;
 }
 #link1 {
 	background-color: rgba(0,0,0,0.5);
 	position:absolute;
-	left: 75%;
+	left: 80%;
 	text-align: left;
-	bottom: 0.1%;
-	font-size: 1.35em;
-	height: 15%;
-	margin-bottom: -75px;
+	bottom: 0.8%;
+	font-size: 1.5vw;
+	height: 20%;
 }
 .banner{
 	color: #fff;
@@ -119,76 +117,154 @@ section {
 }
 /* -- -- */
 #img2 {
+	position: absolute;
 	display: block;
-	float: left;
-	margin: 8px 6px 8px 0px;
 	width: 49%;
 }
 #img2 img {
 	width: 100%;
-	height: 100%;
+	height: auto;
 }
-/* -- -- */
-#img2 {
-	display: block;
-	float: left;
-	margin: 8px 6px 8px 0px;
-	width: 49%;
-}
-#img2 img {
-	width: 100%;
-	height: 100%;
+#img2 p{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 70%;
+	bottom: 0.8%;
+	text-align: left;
+	height: 20%;
+	width: 30%;
+	font-size: 1.5vw;
 }
 /* -- -- */
 /* -- -- */
 #img3 {
+	position: relative;
 	display: block;
 	float: right;
-	margin: 8px 0px 8px 6px;
 	width: 49%;
 }
 #img3 img {
 	width: 100%;
-	height: 100%;
+	height: auto;
+}
+#img3 p{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 70%;
+	bottom: 0.8%;
+	text-align: left;
+	height: 25%;
+	width: 30%;
+	font-size: 1.5vw;
 }
 /* -- -- */
 /* -- -- */
 #img4 {
+	position: relative;
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 #img4 img {
 	width: 100%;
+	height: auto;
 }
+#img4 a{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 75%;
+	bottom: 0.8%;
+	text-align: left;
+	height: 25%;
+	font-size: 1.5vw;
+}
+	#img4 a{
+	background-color: rgba(0,0,0,0.3);
+	position:absolute;
+	left: 75%;
+	text-align: left;
+	bottom: 0.6%;
+	font-size: 1.5vw;
+	height: 10%;
+	width: 25%;
+	}
+
 /* -- FIM SEÇÃO HOME -- */
 
 /*====================================================*/
 
 /* -- INICIO SEÇÃO SOBRE -- */
-
-#img2sobre img {
+#bannersobre {
+	margin-top:-35px; /* Para sobrepor a nav*/
 	width: 100%;
+	height: auto;
+	position: relative;
+	z-index: -1;
+}
+/* --CONFIGURA --*/
+.bannerTexto{
+	position:absolute;
+	background-color: rgba(0,0,0,0.5);
+	
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+}
+#importante{
+	font-size: 2vw;
+}
+/* ------------- */
+
+#textosobre{
+	left: 5%;
+	right: 5%;
+	bottom: 75%;
+	font-size: 1.8vw;
 }
 
+#missao{
+	left: 5%;
+	right: 70%;
+	bottom: 35%;
+	margin-right: 25px;
+	font-size: 1.8vw;
+}
+#visao{
+	left: 30%;
+	right: 40%;
+	bottom: 35%;
+	margin-right: 20px;
+	font-size: 1.8vw;
+}
+#valor{
+	left: 60%;
+	right: 5%;
+	bottom: 35%;
+	font-size: 1.8vw;
+}
 #img3sobre {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-#img3sobre img {
-	width: 100%;
-}
 #avatares {
-	width:8%;
-	line-height: 30px;
-	padding: 10px;
-	float: left;
+	width: 100%;
+	bottom: 500px;	
+	text-align: center;
+	color: #fff;
+	position: relative;
 }
 #avatares h2{
 	color: #fff;
 	text-align: center;
 }
-#avatares ul li {
-	display: inline;
+#avatares ul li{
+	display: inline-block;
+}
+.imgequipe{
+	width: 150px;
+	margin: 30px;
+}
+.fundoequipe{
+	width: 100%
 }
 /* -- FIM SEÇÃO SOBRE --*/
 
