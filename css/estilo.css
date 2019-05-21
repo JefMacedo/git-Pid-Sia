@@ -160,22 +160,18 @@ nav div a:hover {
 /* -- -- */
 /* -- -- */
 #img4 {
-	position: relative;
+	position: sticky;
 	margin-top: 10px;
-	margin-bottom: 10px;
 }
 #img4 img {
 	width: 100%;
-	height: auto;
 }
-#img4 a{
-	background-color: rgba(0,0,0,0.5);
-	position: absolute;
+#img4 p{
+	position:absolute;
 	left: 75%;
-	bottom: 0.8%;
 	text-align: left;
-	height: 25%;
-	font-size: 1.5vw;
+	bottom:30%;
+	font-size: 1.8vw;
 }
 	#img4 a{
 	background-color: rgba(0,0,0,0.3);
@@ -186,8 +182,7 @@ nav div a:hover {
 	font-size: 1.5vw;
 	height: 10%;
 	width: 25%;
-	}
-
+}
 /* -- FIM SEÇÃO HOME -- */
 
 /*====================================================*/
