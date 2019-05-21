@@ -1,0 +1,267 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 1em;
+	height: 100%;
+}
+
+/*====================================================*/
+
+/* -- TOPO -- */
+
+header {
+	width: 100%;
+	height: 100px;
+	background: #000;
+}
+header img.dodoLogo {
+	height: 50px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+header img.dodoSoftwares {
+	width: 103px;
+	height: 50px;
+	margin-top: 5px;
+	margin-left: 40%;
+}
+header img.busca {
+	width: 2%;
+	margin-left: 43%;
+	margin-top: 4%;
+	position: absolute;
+	top: 2px;
+}
+input {
+	/* -- EDITAR -- */
+	margin-left: 30%;
+	/*visibility: hidden;*/
+}
+
+/* -- FIM TOPO  -- */
+
+/*====================================================*/
+
+/* -- NAVEGAÇÃO -- */
+
+nav {
+	width: 100%;
+	height: 35px;
+	background-color: rgba(0,0,0,0.5);
+	position: sticky;
+}
+nav div {
+	text-align: center;
+	line-height: 35px;
+}
+nav div a {
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+	padding: 8px;
+	margin-left: 40px;
+}
+nav div li {
+	display: inline; 
+}
+nav div a:hover {
+	color: #585959;
+	background: #fff;
+}
+
+/* -- FIM NAVEGAÇÃO -- */
+
+/*====================================================*/
+
+/* -- SEÇÃO HOME --*/
+section {
+	width: 100%;
+}
+/* -- -- */
+#img1 img {
+	width: 100%;
+	margin-top:-35px; /* Para sobrepor a nav*/
+}
+#linha1 {
+	position:absolute;
+	left: 65%;
+	text-align: left;
+	bottom: 55%;
+	margin-right: 10px;
+	font-size: 1.5em;
+}
+#linha2{
+	position:absolute;
+	left: 65%;
+	text-align: left;
+	bottom: 35%;
+	margin-right: 10px;
+	font-size: 1.35em;
+	width: 25%;
+}
+#link1 {
+	background-color: rgba(0,0,0,0.5);
+	position:absolute;
+	left: 75%;
+	text-align: left;
+	bottom: 0.1%;
+	font-size: 1.35em;
+	height: 15%;
+	margin-bottom: -75px;
+}
+.banner{
+	color: #fff;
+	text-decoration: none;
+}
+/* -- -- */
+#img2 {
+	display: block;
+	float: left;
+	margin: 8px 6px 8px 0px;
+	width: 49%;
+}
+#img2 img {
+	width: 100%;
+	height: 100%;
+}
+/* -- -- */
+#img2 {
+	display: block;
+	float: left;
+	margin: 8px 6px 8px 0px;
+	width: 49%;
+}
+#img2 img {
+	width: 100%;
+	height: 100%;
+}
+/* -- -- */
+/* -- -- */
+#img3 {
+	display: block;
+	float: right;
+	margin: 8px 0px 8px 6px;
+	width: 49%;
+}
+#img3 img {
+	width: 100%;
+	height: 100%;
+}
+/* -- -- */
+/* -- -- */
+#img4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#img4 img {
+	width: 100%;
+}
+/* -- FIM SEÇÃO HOME -- */
+
+/*====================================================*/
+
+/* -- INICIO SEÇÃO SOBRE -- */
+
+#img2sobre img {
+	width: 100%;
+}
+
+#img3sobre {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#img3sobre img {
+	width: 100%;
+}
+#avatares {
+	width:8%;
+	line-height: 30px;
+	padding: 10px;
+	float: left;
+}
+#avatares h2{
+	color: #fff;
+	text-align: center;
+}
+#avatares ul li {
+	display: inline;
+}
+/* -- FIM SEÇÃO SOBRE --*/
+
+/*====================================================*/
+
+/* -- INICIO RODAPÉ -- */
+footer {
+	width: 97.8%;
+	height: 150px;
+	background: #000;
+	padding: 15px;
+}
+h3 {
+	color: #fff;
+	border-bottom: 1px solid;
+	display: inline;
+}
+/* -- -- */
+#redes ul{
+	text-decoration: none;
+}
+#redes li {
+	display: inline;
+	padding: 5px;
+}
+#rsociais {
+	width: 17%;
+	line-height: 30px;
+	padding: 10px;
+	float: left;
+}
+/* -- -- */
+/* -- -- */
+#inf {
+	width: 17%;
+	float: left;
+	color: #fff;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 30px;
+}
+#inf ul {
+	list-style: none;
+}
+#inf li a {
+	text-decoration: none;
+	color: #fff;
+}
+/* -- -- */
+/* -- -- */
+#termos {
+	width: 17%;
+	float: right;
+	color: #fff;
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	line-height: 30px;
+}
+#termos ul {
+	list-style: none;
+}
+#termos li a {
+	text-decoration: none;
+	color: #fff;
+}
+/* -- -- */
+
+#logofooter {
+	display: inline;
+	float: left;
+	text-align: center;
+	margin-left: 6%;
+}
+/* -- FIM RODAPÉ -- */
