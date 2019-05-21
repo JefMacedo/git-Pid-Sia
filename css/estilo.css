@@ -262,9 +262,11 @@ nav div a:hover {
 #avatares h2{
 	color: #fff;
 	text-align: center;
+	font-size: 2.5vw;
 }
 #avatares ul li{
 	display:inline-block;
+	text-align: center;
 }
 .imgequipe{
 	width: 15vw;
