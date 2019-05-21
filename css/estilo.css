@@ -199,53 +199,61 @@ nav div a:hover {
 .bannerTexto{
 	position:absolute;
 	background-color: rgba(0,0,0,0.5);
-	
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
+	bottom: 35%;
+	top: 30%;
+	
+	font-size: 1.8vw;
 }
 #importante{
 	font-size: 2vw;
+	font-weight: bold;
 }
 /* ------------- */
 
 #textosobre{
+	position:absolute;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
 	left: 5%;
 	right: 5%;
 	bottom: 75%;
 	font-size: 1.8vw;
 }
+#teste{
+	text-align: justify;
+}
 
 #missao{
 	left: 5%;
 	right: 70%;
-	bottom: 35%;
-	margin-right: 25px;
-	font-size: 1.8vw;
+	margin-right: 20px;
 }
 #visao{
 	left: 30%;
 	right: 40%;
-	bottom: 35%;
 	margin-right: 20px;
-	font-size: 1.8vw;
 }
 #valor{
 	left: 60%;
 	right: 5%;
-	bottom: 35%;
-	font-size: 1.8vw;
 }
+
+/* ------------- */
 #img3sobre {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 #avatares {
-	width: 100%;
-	bottom: 500px;	
+	width: 100%;	
 	text-align: center;
+	position:absolute;
 	color: #fff;
-	position: relative;
+	bottom: 25%;
 }
 #avatares h2{
 	color: #fff;
@@ -257,9 +265,11 @@ nav div a:hover {
 .imgequipe{
 	width: 150px;
 	margin: 30px;
+	bottom: 35%;
+	top: 30%;
 }
 .fundoequipe{
-	width: 100%
+	width: 100%;
 }
 /* -- FIM SEÇÃO SOBRE --*/
 
