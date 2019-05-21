@@ -247,26 +247,28 @@ nav div a:hover {
 #img3sobre {
 	margin-top: 10px;
 	margin-bottom: 10px;
+	height: auto;
+	position: relative;
+	z-index: -1;
 }
 #avatares {
 	width: 100%;	
 	text-align: center;
-	position:absolute;
 	color: #fff;
-	bottom: 25%;
+	position:absolute;
+	top: 5%;
 }
+
 #avatares h2{
 	color: #fff;
 	text-align: center;
 }
 #avatares ul li{
-	display: inline-block;
+	display:inline-block;
 }
 .imgequipe{
-	width: 150px;
-	margin: 30px;
-	bottom: 35%;
-	top: 30%;
+	width: 15vw;
+	margin: 10%;
 }
 .fundoequipe{
 	width: 100%;
