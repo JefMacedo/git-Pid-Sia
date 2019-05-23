@@ -259,12 +259,10 @@ nav div a:hover {
 	position: relative;
 	z-index: -1;
 }
-#avatares {
-	width: 100%;	
+#avatares p {	
 	text-align: center;
 	color: #fff;
-	position:absolute;
-	top: 5%;
+	position:static;
 }
 
 #avatares h2{
@@ -272,13 +270,34 @@ nav div a:hover {
 	text-align: center;
 	font-size: 2.5vw;
 }
-#avatares ul li{
-	display:inline-block;
-	text-align: center;
+#avatar1{
+	position: absolute;
+	bottom: 50%;
+	left: 4%;
+}
+#avatar2{
+	position: absolute;
+	bottom: 50%;
+	left: 25%;
+}
+#avatar3{
+	position: absolute;
+	bottom: 50%;
+	left: 45%;
+}
+#avatar4{
+	position: absolute;
+	bottom: 50%;
+	right: 25%;
+}
+#avatar5{
+	position: absolute;
+	bottom: 50%;
+	right: 4%;
 }
 .imgequipe{
-	width: 15vw;
-	margin: 10%;
+	width: 100%;
+	height: auto;
 }
 .fundoequipe{
 	width: 100%;
