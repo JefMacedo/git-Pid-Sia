@@ -254,10 +254,10 @@ nav div a:hover {
 /* ------------- */
 #img3sobre {
 	margin-top: 10px;
-	margin-bottom: 10px;
 	height: auto;
-	position: relative;
+	position: sticky;
 	z-index: -1;
+
 }
 #avatares p {	
 	text-align: center;
@@ -271,36 +271,43 @@ nav div a:hover {
 	font-size: 2.5vw;
 }
 #avatar1{
+	max-width: 150px;
+	max-height: 162px;
 	position: absolute;
 	bottom: 50%;
-	left: 4%;
+	left: 5%;
 }
 #avatar2{
+	max-width: 150px;
+	max-height: 162px;
 	position: absolute;
 	bottom: 50%;
 	left: 25%;
 }
 #avatar3{
+	max-width: 150px;
+	max-height: 162px;
 	position: absolute;
 	bottom: 50%;
 	left: 45%;
 }
 #avatar4{
+	max-width: 150px;
+	max-height: 162px;
 	position: absolute;
 	bottom: 50%;
-	right: 25%;
+	left: 65%;
 }
 #avatar5{
+	max-width: 150px;
+	max-height: 162px;
 	position: absolute;
 	bottom: 50%;
-	right: 4%;
-}
-.imgequipe{
-	width: 100%;
-	height: auto;
+	right: 5%
 }
 .fundoequipe{
 	width: 100%;
+	height: 500px;
 }
 /* -- FIM SEÇÃO SOBRE --*/
 
@@ -309,7 +316,7 @@ nav div a:hover {
 /* -- INICIO RODAPÉ -- */
 footer {
 	width: 100%;
-	height: 150px;
+	height: 200px;
 	background: #000;
 }
 h3 {
@@ -368,7 +375,7 @@ h3 {
 	right: 45%;
 	text-align: center;
 	width: 155px;
-	height: 144.844px;
+	height: 144px;
 }
 .logofooter1{
 	width: 100%;
