@@ -254,15 +254,17 @@ nav div a:hover {
 /* ------------- */
 #img3sobre {
 	margin-top: 10px;
+	margin-bottom: 10px;
 	height: auto;
-	position: sticky;
+	position: relative;
 	z-index: -1;
-
 }
-#avatares p {	
+#avatares {
+	width: 100%;	
 	text-align: center;
 	color: #fff;
-	position:static;
+	position:absolute;
+	top: 5%;
 }
 
 #avatares h2{
@@ -270,44 +272,16 @@ nav div a:hover {
 	text-align: center;
 	font-size: 2.5vw;
 }
-#avatar1{
-	max-width: 150px;
-	max-height: 162px;
-	position: absolute;
-	bottom: 50%;
-	left: 5%;
+#avatares ul li{
+	display:inline-block;
+	text-align: center;
 }
-#avatar2{
-	max-width: 150px;
-	max-height: 162px;
-	position: absolute;
-	bottom: 50%;
-	left: 25%;
-}
-#avatar3{
-	max-width: 150px;
-	max-height: 162px;
-	position: absolute;
-	bottom: 50%;
-	left: 45%;
-}
-#avatar4{
-	max-width: 150px;
-	max-height: 162px;
-	position: absolute;
-	bottom: 50%;
-	left: 65%;
-}
-#avatar5{
-	max-width: 150px;
-	max-height: 162px;
-	position: absolute;
-	bottom: 50%;
-	right: 5%
+.imgequipe{
+	width: 15vw;
+	margin: 10%;
 }
 .fundoequipe{
 	width: 100%;
-	height: 500px;
 }
 /* -- FIM SEÇÃO SOBRE --*/
 
