@@ -210,7 +210,7 @@ nav div a:hover {
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
-	bottom: 35%;
+	bottom: 25%;
 	top: 30%;
 	
 	font-size: 1.8vw;
@@ -290,19 +290,20 @@ nav div a:hover {
 /* -- INICIO RODAPÉ -- */
 footer {
 	width: 100%;
-	height: 200px;
+	height: 220px;
 	background: #000;
 }
 h3 {
 	color: #fff;
 	border-bottom: 1px solid;
 	display: inline;
+	font-size: 2vw;
 }
 /* -- -- */
 
 #rsociais {
 	width: 17%;
-	line-height: 30px;
+	line-height: 2.3vw;
 	padding: 10px;
 	float: left;
 }
@@ -313,7 +314,7 @@ h3 {
 	left: 20%;
 	width: 17%;
 	color: #fff;
-	line-height: 30px;
+	line-height: 2.3vw;
 }
 #inf ul {
 	list-style: none;
@@ -321,16 +322,16 @@ h3 {
 #inf li a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 1vw;
+	font-size: 1.7vw;
 }
 /* -- -- */
 /* -- -- */
 #termos {
 	width: 17%;
 	color: #fff;
-	line-height: 30px;
+	line-height: 2.3vw;
 	position: absolute;
-	left: 80%;
+	left: 78%;
 }
 #termos ul {
 	list-style: none;
@@ -338,7 +339,7 @@ h3 {
 #termos li a {
 	text-decoration: none;
 	color: #fff;
-	font-size: 1vw;
+	font-size: 1.7vw;
 }
 /* -- -- */
 
@@ -347,9 +348,10 @@ h3 {
 	height: auto;
 	position: absolute;
 	right: 45%;
+	left: 44%;
 	text-align: center;
-	width: 155px;
-	height: 144px;
+	width: 150px;
+
 }
 .logofooter1{
 	width: 100%;
