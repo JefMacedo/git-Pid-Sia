@@ -287,6 +287,54 @@ nav div a:hover {
 
 /*====================================================*/
 
+/* -- INICIO SEÇÃO CONTATO -- */
+#bannercontato {
+	margin-top:-35px; /* Para sobrepor a nav*/
+	width: 100%;
+	height: auto;
+	position: inherit;
+}
+#title{
+	position:absolute;
+	text-align: center;
+	color: #fff;
+	text-decoration: none;
+	top: 17%;
+	left: 45%;
+	right: 45%;
+	font-size: 2vw;
+}
+#formulario{
+	position:absolute;
+	background-color: rgba(0,0,0,0.5);
+	text-align: left;
+	color: #fff;
+	text-decoration: none;
+	top: 25%;
+	left: 8%;
+}
+#formulario form{
+	margin: 2vw 6vw 2vw 2vw;
+	font-size: 1.3vw;
+}
+
+#email{
+	position:absolute;
+	background-color: rgba(0,0,0,0.5);
+	text-align: left;
+	color: #fff;
+	text-decoration: none;
+	top: 25%;
+	right: 10%;
+}
+#email p{
+	margin: 1vw 3vw 2vw;
+	font-size: 1.6vw;
+}
+/* -- FIM SEÇÃO CONTATO -- */ 
+
+/*====================================================*/
+
 /* -- INICIO RODAPÉ -- */
 footer {
 	width: 100%;
@@ -306,6 +354,7 @@ h3 {
 	line-height: 2.3vw;
 	padding: 10px;
 	float: left;
+	margin:10px;
 }
 /* -- -- */
 /* -- -- */
@@ -315,6 +364,7 @@ h3 {
 	width: 17%;
 	color: #fff;
 	line-height: 2.3vw;
+	margin:10px;
 }
 #inf ul {
 	list-style: none;
@@ -332,6 +382,7 @@ h3 {
 	line-height: 2.3vw;
 	position: absolute;
 	left: 78%;
+	margin:10px;
 }
 #termos ul {
 	list-style: none;
@@ -348,13 +399,12 @@ h3 {
 	height: auto;
 	position: absolute;
 	right: 45%;
-	left: 44%;
+	left: 43%;
 	text-align: center;
 	width: 150px;
 
 }
 .logofooter1{
 	width: 100%;
-	height: auto;
 }
 /* -- FIM RODAPÉ -- */
