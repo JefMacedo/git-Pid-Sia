@@ -264,7 +264,7 @@ nav div a:hover {
 	text-align: center;
 	color: #fff;
 	position:absolute;
-	top: 5%;
+	top: 15%;
 }
 
 #avatares h2{
@@ -299,7 +299,7 @@ nav div a:hover {
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
-	top: 17%;
+	top: 20%;
 	left: 45%;
 	right: 45%;
 	font-size: 2vw;
@@ -310,7 +310,7 @@ nav div a:hover {
 	text-align: left;
 	color: #fff;
 	text-decoration: none;
-	top: 25%;
+	top: 30%;
 	left: 8%;
 }
 #formulario form{
@@ -324,7 +324,7 @@ nav div a:hover {
 	text-align: left;
 	color: #fff;
 	text-decoration: none;
-	top: 25%;
+	top: 30%;
 	right: 10%;
 }
 #email p{
@@ -346,7 +346,7 @@ nav div a:hover {
 #login label{
 	color: #fff;
 }
-form {
+#login form {
 	max-width: 750px;
 	margin-bottom: 25px;
 	background-color: rgba(0,0,0,0.3);
