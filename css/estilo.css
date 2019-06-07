@@ -343,9 +343,13 @@ nav div a:hover {
 	align-items: center;
 	display: flex;
 }
+#login label{
+	color: #fff;
+}
 form {
 	max-width: 750px;
 	margin-bottom: 25px;
+	background-color: rgba(0,0,0,0.3);
 }
 
 	input[type=text], input[type=password]{
